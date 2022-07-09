@@ -1,0 +1,128 @@
+#title{
+  background-color: #FF385B;
+  color: white;
+  padding-bottom: 10%;
+}
+.nav-link a{
+  color: black;
+}
+.container-fluid{
+  padding: 3% 15%;
+  color:black;
+}
+h1{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+  color: white;
+}
+h2{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+h3{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+li{
+  font-size: 2rem;
+}
+
+
+.navbar{
+  padding-bottom: 4rem;
+}
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 1rem;
+}
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  padding-bottom: 20%;
+  padding-top:0.21%;
+  padding-left: 10%;
+  position: absolute;
+}
+#features{
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.feature-item{
+  padding: 2% 10%;
+  text-align: center;
+}
+.icon{
+  color: #FF8284;
+  margin:1rem;
+}
+.icon:hover{
+  color: #FF385B;
+}
+
+
+#testimonials{
+  padding:3rem;
+  background-color: #FF8284;
+  color: white;
+  text-align: center;
+}
+.testimonial-img{
+  width:12%;
+  border-radius: 100%;
+  margin: 2rem;
+}
+#press{
+  background-color: #FF8284;
+  padding-bottom: 5%;
+}
+.press-img{
+  margin: 2%;
+    width: 20%;
+    padding: 2%;
+}
+.card-deck{
+  margin: 2%;
+  padding: 2%;
+}
+#pricing{
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+}
+@media (max-width:1020px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    transform: rotate(0);
+    position: static;
+    margin: 15%;
+  }
+}
+#cta{
+  text-align: center;
+  background-color: #FF8284;
+  padding: 4%;
+  padding-bottom: 5%;
+  color: white;
+}
+#footer{
+  text-align: center;
+  padding: 3%;
+}
+.social{
+  margin: 2%;
+}
+.social:hover{
+  color: grey;
+}
